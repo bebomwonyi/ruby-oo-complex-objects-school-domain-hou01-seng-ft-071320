@@ -8,4 +8,5 @@ class School
     @roster[b] ||=[]
     @roster[b] << a
   end
+  
 end
