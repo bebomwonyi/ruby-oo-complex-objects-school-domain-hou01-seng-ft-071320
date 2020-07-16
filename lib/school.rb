@@ -4,5 +4,8 @@ class School
     @roster = {}
   end
   attr_reader :roster
+  def add_student(a,b)
+    @roster = {b:[a]}
+  end
     
 end
