@@ -12,4 +12,5 @@ end
 
 b = School.new("abab")
 
-puts b.roster.length
+b.add_student(h,10)
+puts b.roster
