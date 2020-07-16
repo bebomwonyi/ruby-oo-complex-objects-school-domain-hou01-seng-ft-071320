@@ -12,6 +12,7 @@ class School
     @roster[g]
   end
   def sort
-    @roster.sort
+    @roster.each do |a,b|
+      @roster[a]= b.sort
   end
 end
