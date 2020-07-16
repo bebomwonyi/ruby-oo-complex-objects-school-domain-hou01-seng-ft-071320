@@ -9,3 +9,7 @@ class School
   end
     
 end
+
+b = School.new("abab")
+
+puts b.roster.length
