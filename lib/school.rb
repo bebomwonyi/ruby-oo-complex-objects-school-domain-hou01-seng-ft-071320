@@ -8,10 +8,4 @@ class School
     @roster[:a]=[]
     @roster[:a] << "#{b}"
   end
-    
 end
-
-b = School.new("abab")
-
-b.add_student(h,10)
-puts b.roster
