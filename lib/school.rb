@@ -12,5 +12,6 @@ class School
     @roster[g]
   end
   def sort
-    
+    @roster.sort
+  end
 end
