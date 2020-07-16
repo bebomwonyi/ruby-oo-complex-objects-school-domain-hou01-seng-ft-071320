@@ -6,6 +6,6 @@ class School
   attr_reader :roster
   def add_student(a,b)
     @roster[:a]=[]
-    @roster[:a] << "#{b}"
+    @roster[:a] << b
   end
 end
