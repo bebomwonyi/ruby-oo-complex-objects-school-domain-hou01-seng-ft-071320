@@ -9,5 +9,6 @@ class School
     @roster[b] << a
   end
   def grade (g)
-    
+    @roster[g]
+  end
 end
