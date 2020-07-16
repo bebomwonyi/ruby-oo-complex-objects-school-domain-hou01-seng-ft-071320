@@ -8,5 +8,6 @@ class School
     @roster[b] ||=[]
     @roster[b] << a
   end
-  
+  def grade (g)
+    
 end
